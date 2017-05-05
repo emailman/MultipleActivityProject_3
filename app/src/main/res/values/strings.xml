@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Multiple Activity Project</string>
+    <string name="create_string">Create Text</string>
+    <string name="enter_a_string_below">Enter A Text Below</string>
+    <string name="string_from_previous_activity_is_below">Text From Previous Activity Is Below</string>
+    <string name="return_to_previous_screen">Return To Previous Screen</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:gravity="center_vertical"
+    android:soundEffectsEnabled="true"
+    tools:context="edu.dtcc.klochel.multipleactivityproject.MainActivity">
+
+
+    <TextView
+        android:id="@string/create_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:gravity="center_vertical"
+        android:text="Enter Text Below"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+
+    <Button
+        android:id="@string/create_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="313dp"
+        android:text="Create Text"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:onClick="onBtnCreateStringClick" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+</RelativeLayout>
